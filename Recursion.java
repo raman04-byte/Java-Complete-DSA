@@ -7,7 +7,11 @@ class Factorial {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int input = scn.nextInt();
+        long  start = System.currentTimeMillis();
         System.out.println(factorial(input));
+        long end = System.currentTimeMillis();
+        float second=(end-start)/1000F;
+        System.out.println(second);
 
     }
 
@@ -15,11 +19,11 @@ class Factorial {
     static int factorial(int n) {
         if (n == 0) {
             // This sout statement will tell us that we are in IF condition
-            System.out.println("Inside IF");
+            // System.out.println("Inside IF");
             return 1;
         } else {
             // This sout statement will tell us that we are in Else condition
-            System.out.println("Inside Else");
+            // System.out.println("Inside Else");
             return (n * factorial(n - 1));
         }
     }

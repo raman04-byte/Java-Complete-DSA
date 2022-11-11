@@ -5,6 +5,7 @@ class Ree {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         int[] arr = new int[n];
+        long  start = System.currentTimeMillis();
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scn.nextInt();
         }
@@ -24,5 +25,8 @@ class Ree {
             }
             System.out.println(set);
         }
+        long end = System.currentTimeMillis();
+        float  second=(end-start)/1000F;
+        System.out.println("time:"+second);
     }
 }

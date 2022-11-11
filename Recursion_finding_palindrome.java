@@ -30,10 +30,13 @@ class Recursion {
         Scanner scn = new Scanner(System.in);
 
         str = scn.nextLine();
-
+        long start = System.currentTimeMillis();
         if (isPalindrome(str))
             System.out.println("The string is Palindrome");
         else
             System.out.println("The string is not Palindrome");
+        long end = System.currentTimeMillis();
+        float  second=(end-start)/1000F;
+        System.out.println("Time taken: "+second+" seconds");
     }
 }
