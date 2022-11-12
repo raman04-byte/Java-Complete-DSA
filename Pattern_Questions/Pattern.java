@@ -16,6 +16,8 @@ public class Pattern {
         pattern4(n);
         System.out.println();
         pattern5(n);
+        System.out.println();
+        pattern6(n);
         double end = System.currentTimeMillis();
         float second = (float) (end - start) / 1000F;
         System.out.println("Time taken: " + second + " seconds");
@@ -74,4 +76,19 @@ public class Pattern {
             }
             System.out.println();
         }
-    }}
+    }
+    public static void pattern6(int n){
+        int rows,column,spaces,total_number_of_spaces;
+        for(rows=0;rows<2*n;rows++){
+            int total_Columns_in_row=rows>n?2*n-rows:rows;
+            total_number_of_spaces = n-total_Columns_in_row;
+            for(spaces=0;spaces<total_number_of_spaces;spaces++){
+                System.out.print(" ");
+            }
+            for(column=0;column<total_Columns_in_row;column++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
