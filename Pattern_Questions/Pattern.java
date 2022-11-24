@@ -112,7 +112,8 @@ public class Pattern {
             System.out.println();
         }
     }
-// Pattern number 8
+
+    // Pattern number 8
     public static void pattern8(int n) {
         for (int row = 1; row <= 2 * n; row++) {
             int c = row > n ? 2 * n - row : row;
@@ -130,3 +131,4 @@ public class Pattern {
         }
     }
 }
+// https://youtu.be/lsOOs5J8ycw?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=2700
