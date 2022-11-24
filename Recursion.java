@@ -7,15 +7,15 @@ class Factorial {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int input = scn.nextInt();
-        long  start = System.currentTimeMillis();
+        long start = System.currentTimeMillis();
         System.out.println(factorial(input));
         long end = System.currentTimeMillis();
-        float second=(end-start)/1000F;
+        float second = (end - start) / 1000F;
         System.out.println(second);
 
     }
 
-    // factorial method 
+    // factorial method
     static int factorial(int n) {
         if (n == 0) {
             // This sout statement will tell us that we are in IF condition
@@ -30,6 +30,8 @@ class Factorial {
 }
 
 // Time Complexity of this method with Recursion
-// O(n) ("This method is calling himself n times so the time Complexity will be this ")
+// O(n) ("This method is calling himself n times so the time Complexity will be
+// this ")
 // Space Complexity of this method with Recursion
-// O(n) ("This method is calling himself n times so the space Complexity will be this ")
+// O(n) ("This method is calling himself n times so the space Complexity will be
+// this ")

@@ -5,7 +5,7 @@ class Ree {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         int[] arr = new int[n];
-        long  start = System.currentTimeMillis();
+        long start = System.currentTimeMillis();
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scn.nextInt();
         }
@@ -13,7 +13,7 @@ class Ree {
         for (int i = 0; i < limit; i++) {
             String set = "";
             int temp = i;
-            for (int j = arr.length-1; j >= 0; j--) {
+            for (int j = arr.length - 1; j >= 0; j--) {
                 int r = temp % 2;
                 temp = temp / 2;
                 if (r == 0) {
@@ -26,7 +26,7 @@ class Ree {
             System.out.println(set);
         }
         long end = System.currentTimeMillis();
-        float  second=(end-start)/1000F;
-        System.out.println("time:"+second);
+        float second = (end - start) / 1000F;
+        System.out.println("time:" + second);
     }
 }
