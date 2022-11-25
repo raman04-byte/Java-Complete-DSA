@@ -11,8 +11,15 @@ public class Ceiling {
     }
 
     static int Ceiling_using_Binary_Search(int[] arr, int target) {
+
         int start = 0;
         int end = arr.length - 1;
+
+        // Means we are searching an element which is greater than the largest number
+        // of an array and hence the element doesn't lie in that array 
+        if(target>arr[end]){
+            return -1;
+        }
         while (start <= end) {
             int mid = start + (end - start) / 2;
             if (target < arr[mid]) {
@@ -27,3 +34,7 @@ public class Ceiling {
 
     }
 }
+
+
+// Ignore this comment
+// 47:00
