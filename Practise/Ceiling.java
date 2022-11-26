@@ -9,7 +9,7 @@ public class Ceiling {
         int ans = Ceiling_using_Binary_Search(arr, target);
         System.out.println(ans);
     }
-
+    
     static int Ceiling_using_Binary_Search(int[] arr, int target) {
 
         int start = 0;
@@ -34,7 +34,18 @@ public class Ceiling {
 
     }
 }
-
-
-// Ignore this comment
-// 47:00
+// LeetCode Problem solution number 744
+/*public char nextGreatestLetter(char[] letters, char target) {
+        
+    int start = 0;
+    int end = letters.length - 1;
+    while (start <= end) {
+        int mid = start + (end - start) / 2;
+        if (target < letters[mid]) {
+            end = mid - 1;
+        } else {
+            start = mid +1;;
+        }
+    }
+    return letters[start % letters.length];
+}*/
