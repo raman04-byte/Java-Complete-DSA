@@ -1,3 +1,6 @@
 This folder if for practise the DSA in java
 This folder also have some questions of the LeetCode
 So let's start
+I want to track my each day progress and have to write atleast a single code
+System.out.println("Let's start \n");
+Day 1
