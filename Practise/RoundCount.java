@@ -5,24 +5,24 @@ public class RoundCount {
         int[] arr = { 4, 5, 6, 7, 0, 1, 2 };
         System.out.println(countRoatation(arr));
     }
-    
+
     private static int countRoatation(int[] arr) {
-       int findPivot =findPivot(arr);
-       return findPivot+1;
+        int findPivot = findPivot(arr);
+        return findPivot + 1;
     }
 
     static int search(int[] nums, int target) {
         int pivot = findPivot(nums);
-        if(pivot ==-1){
-            return Binarysearch(nums, target, 0, nums.length-1);
+        if (pivot == -1) {
+            return Binarysearch(nums, target, 0, nums.length - 1);
         }
-        if(nums[pivot]==target){
+        if (nums[pivot] == target) {
             return pivot;
         }
-        if(target>=nums[0]){
-            return Binarysearch(nums, target, 0, pivot-1);
+        if (target >= nums[0]) {
+            return Binarysearch(nums, target, 0, pivot - 1);
         }
-        return Binarysearch(nums, target, pivot+1, nums.length-1);
+        return Binarysearch(nums, target, pivot + 1, nums.length - 1);
     }
 
     static int Binarysearch(int[] arr, int target, int start, int end) {
