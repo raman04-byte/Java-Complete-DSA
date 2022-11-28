@@ -1,2 +1,2 @@
 # Java-Complete-DSA
-# This is the DSA using Java
+# I am using JAVA for the DSA
