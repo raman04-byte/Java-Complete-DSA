@@ -19,7 +19,10 @@ public class RowColMatrix {
 
         while (r < matrix.length && c >= 0) {
             if (matrix[r][c] == target) {
+                // Position in the array
                 return new int[] { r + 1, c + 1 };
+                // Position through the index value
+                // return new int[]{r,c};
             }
             if (matrix[r][c] < target) {
                 r++;
