@@ -1,4 +1,4 @@
-package Practise;
+package DSA_Questions;
 
 import java.util.Arrays;
 

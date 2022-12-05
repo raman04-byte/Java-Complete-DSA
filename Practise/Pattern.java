@@ -1,4 +1,4 @@
-package Pattern_Questions;
+package Practise;
 
 import java.util.Scanner;
 
