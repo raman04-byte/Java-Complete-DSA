@@ -33,6 +33,10 @@ public class MergeSort {
             }
             k++;
         }
+
+        // It may be possible that one of the array is not complete
+        // copy the remaining elements 
+
         while (i < first.length) {
             mix[k] = first[i];
             i++;
