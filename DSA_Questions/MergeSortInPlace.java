@@ -1,5 +1,5 @@
 package DSA_Questions;
-
+// Wr are only utilizing the array and not creating any new array in this approach
 import java.util.Arrays;
 
 public class MergeSortInPlace {
