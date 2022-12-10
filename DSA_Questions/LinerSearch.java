@@ -2,8 +2,8 @@ package DSA_Questions;
 
 public class LinerSearch {
     public static void main(String[] args) {
-        int[] nums = {3,5,23,4,34,54,25,2,45,346,4,656,7,345,73,46,2,42,6,4567,345,73,4567};
-        int target=3;
+        int[] nums = {1,2,3,4,5,6,7,8};
+        int target=9;
         int ans = linearSeach(nums, target);
         System.out.println(ans + " answer in the index");
     }
