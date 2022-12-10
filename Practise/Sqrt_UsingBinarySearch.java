@@ -2,9 +2,9 @@ package Practise;
 
 public class Sqrt_UsingBinarySearch {
     public static void main(String[] args) {
-        int n=40;
-        int p=3;
-        System.out.println( sqrt(n, p));
+        int n=8;
+        int p=2;
+        System.out.println(sqrt(n, p));
     }
     public static double sqrt(int n, int p){
         int s=0;
