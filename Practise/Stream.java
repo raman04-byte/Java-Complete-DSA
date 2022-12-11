@@ -26,4 +26,15 @@ public class Stream{
             return ch+skip(up.substring(1));
         }
     }
+    static String skipString(String up){
+        if(up.isEmpty()){
+            return "";
+        }
+
+        if(up.startsWith("apple")){
+            return skipString(up.substring(1));
+        }else{
+            return skipString(up.substring(1));
+        }
+    }
 }
