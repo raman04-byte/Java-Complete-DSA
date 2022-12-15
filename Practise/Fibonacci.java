@@ -2,8 +2,7 @@ package Practise;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        int a = 5;
-        
+         
         // System.out.println("Ans = "+fibo(a));
         for (int i = 0; i < 11; i++) {
         System.out.println(fiboFormula(i));    
