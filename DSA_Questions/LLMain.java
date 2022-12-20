@@ -10,6 +10,7 @@ public class LLMain {
         list.insertFirst(74);
         list.insertLast(99);
         list.insert(4, 3);
+        System.out.println(list.deleteFirst());
         list.display();
     }
 }

@@ -33,9 +33,19 @@ public class LL {
         for (int i = 0; i < index; i++) {
             temp = temp.next;
         }
-        Node node =new Node(val,temp.next);
-        temp.next =node;
+        Node node = new Node(val, temp.next);
+        temp.next = node;
     }
+
+    public int deleteFirst(){
+        int val=head.value;
+        head=head.next;
+        if(head==null)
+        tail=null;
+        size--;
+        return val;
+    }   
+
 
     public void insertLast(int val) {
         if (tail == null) {
