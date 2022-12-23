@@ -19,6 +19,19 @@ public class Sort {
             this.next = next;
         }
     }
+    // Reversing the LinkedList using Recursion
+    private void reverse(Node node){
+        // ListNode tail;
+        // ListNode head;
+        if(node==tail){
+            head=tail;
+            return;
+        }
+    reverse(node.next);
+        tail.next=node;
+        tail=node;
+        tail.next=nul;
+    }
 
     public static void main(String[] args) {
 
