@@ -1,15 +1,8 @@
-package DSA_Questions;
+package Revision.Sorting;
 
-import java.util.Arrays;
+public class insertionSort {
 
-public class InsertionSort {
-    public static void main(String[] args) {
-        int[] arr = { 5, 3, 2, 4, 6, 3, 1, 67, 5, 5 };
-        insertion(arr);
-        System.out.println(Arrays.toString(arr));
-    }
-
-    static void insertion(int[] arr) {
+    public void insetion(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = i + 1; j > 0; j--) {
                 if (arr[j] < arr[j - 1]) {
@@ -21,10 +14,9 @@ public class InsertionSort {
         }
     }
 
-    public static void swap(int[] arr, int first, int second) {
+    public void swap(int[] arr, int first, int second) {
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;
-
     }
 }

@@ -8,8 +8,10 @@ public class Main {
         int arr[] = {5,4,3,6,7,8,9,2,1};
         // bubbleSort bb = new bubbleSort();
         // bb.bubble(arr);
-        cyclicSort cc=new cyclicSort();
-        cc.cyclicsort(arr);
+        // cyclicSort cc=new cyclicSort();
+        // cc.cyclicsort(arr);
+        insertionSort ins=new insertionSort();
+        ins.insetion(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
