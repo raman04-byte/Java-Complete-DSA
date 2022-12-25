@@ -1,3 +1,4 @@
+package Practise;
 import java.util.Scanner;
 
 class Ree {

@@ -1,3 +1,4 @@
+package Practise;
 // Java implementation of the approach
 import java.util.ArrayList;
 import java.util.Scanner;

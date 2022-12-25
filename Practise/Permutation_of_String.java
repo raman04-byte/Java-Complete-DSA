@@ -1,3 +1,4 @@
+package Practise;
 import java.util.Scanner;
 
 public class Permutation_of_String {

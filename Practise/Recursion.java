@@ -1,3 +1,4 @@
+package Practise;
 // You can also correct this code by creating a Pull request and I will do much happy by accepting your Pull request
 // sout = System.out.println();
 
