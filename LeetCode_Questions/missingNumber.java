@@ -28,5 +28,3 @@ public class missingNumber {
         arr[second] = temp;
     }
 }
-
-}
