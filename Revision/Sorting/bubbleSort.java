@@ -1,5 +1,5 @@
 package Revision.Sorting;
-
+// bubble Sort method
 class bubbleSort {
     public void bubble(int[] arr) {
         boolean isSwap;
