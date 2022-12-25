@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class CyclicSort {
     public static void main(String[] args) {
-        int[] arr = {3,5,1,2};
+        int[] arr = {3,5,1,2,4};
         cyclicsort(arr);
         System.out.println(Arrays.toString(arr));
     }
