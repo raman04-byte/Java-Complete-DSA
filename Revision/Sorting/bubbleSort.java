@@ -7,9 +7,7 @@ class bubbleSort {
             isSwap=false;
             for (int j = 1; j < arr.length-i; j++) {
                 if(arr[j-1]>arr[j]){
-                    int temp = arr[j];
-                    arr[j] = arr[j - 1];
-                    arr[j - 1] = temp;
+                    swap(arr, j-1, j);
                     isSwap = true;
                 }
             }
@@ -17,6 +15,13 @@ class bubbleSort {
                 break;
             }
         }
+    }
+
+    static void swap(int arr[], int index1, int index2){
+        int temp = arr[index1];
+        arr[index1]=arr[index2];
+        arr[index2]=temp;
+        
     }
 
 }
