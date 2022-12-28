@@ -10,8 +10,10 @@ public class Main {
         // bb.bubble(arr);
         // cyclicSort cc=new cyclicSort();
         // cc.cyclicsort(arr);
-        insertionSort ins=new insertionSort();
-        ins.insetion(arr);
+        // insertionSort ins=new insertionSort();
+        // ins.insetion(arr);
+        quickSort qs=new quickSort();
+        qs.quick(arr, 0, arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
 }
