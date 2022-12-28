@@ -1,23 +1,18 @@
-package DSA_Questions;
+package Revision.Sorting;
 
 import java.util.Arrays;
 
-public class MergeSort {
-    public static void main(String[] args) {
-        int[] arr = { 5, 4, 3, 2, 1 };
-        arr = mergeSort(arr);
-        System.out.println(Arrays.toString(arr));
-    }
-
-    static int[] mergeSort(int[] arr) {
-        if (arr.length == 1) { 
+public class mergeSort {
+    int[] mergeSS(int[] arr) {
+        if (arr.length == 1) {
             return arr;
         }
         int mid = arr.length / 2;
-        int[] left = mergeSort(Arrays.copyOfRange(arr, 0, mid));
-        int[] right = mergeSort(Arrays.copyOfRange(arr, mid, arr.length));
+        int[] first = mergeSS(Arrays.copyOfRange(arr, 0, mid));
+        int[] second = mergeSS(Arrays.copyOfRange(arr, mid, arr.length));
 
-        return merge(left, right);
+        return merge(first, second);
+
     }
 
     private static int[] merge(int[] first, int[] second) {
@@ -32,21 +27,20 @@ public class MergeSort {
                 j++;
             }
             k++;
-        }
 
-        // It may be possible that one of the array is not complete
-        // copy the remaining elements 
+        }
 
         while (i < first.length) {
             mix[k] = first[i];
             i++;
             k++;
         }
-        while (j < second.length) {
+        while (k < second.length) {
             mix[k] = second[j];
             j++;
             k++;
         }
+
         return mix;
     }
 }
