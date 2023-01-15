@@ -1,4 +1,3 @@
-package LeetCode_Questions;
 
 import java.util.HashMap;
 import java.util.Map;

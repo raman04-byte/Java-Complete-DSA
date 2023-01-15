@@ -1,4 +1,4 @@
-package LeetCode_Questions;
+import java.util.Arrays;
 
 public class LeetCode_2244 {
     public static void main(String[] args) {

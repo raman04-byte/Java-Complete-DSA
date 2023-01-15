@@ -1,4 +1,4 @@
-package LeetCode_Questions;
+
 // LeetCode question 83
 public class LinkedList {
     public static void main(String[] args) {

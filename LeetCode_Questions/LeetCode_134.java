@@ -1,4 +1,3 @@
-package LeetCode_Questions;
 
 public class LeetCode_134 {
     public static void main(String[] args) {

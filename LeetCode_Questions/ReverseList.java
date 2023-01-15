@@ -1,4 +1,3 @@
-package LeetCode_Questions;
 //  LeetCode 206 problem solution
 public class ReverseList {
     public static void main(String[] args) {

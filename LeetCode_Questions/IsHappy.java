@@ -1,4 +1,3 @@
-package LeetCode_Questions;
 //  LeetCode 202
 public class IsHappy {
     public static void main(String[] args) {

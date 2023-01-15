@@ -1,4 +1,4 @@
-package LeetCode_Questions;
+
 // LeetCode question 268
 public class missingNumber {
     public static void main(String[] args) {

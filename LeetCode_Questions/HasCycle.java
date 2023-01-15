@@ -1,4 +1,3 @@
-package LeetCode_Questions;
 // LeetCode 141
 public class HasCycle {
     public static void main(String[] args) {
