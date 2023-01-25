@@ -25,7 +25,6 @@ public:
                 ans++;
             }
             
-            // cout<<i<<"ic"<<cur.size()<<" ";
         }
         
         return ans;
