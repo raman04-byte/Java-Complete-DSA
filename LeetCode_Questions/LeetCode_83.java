@@ -1,6 +1,5 @@
 
-// LeetCode question 83
-public class LinkedList {
+public class LeetCode_83 {
     public static void main(String[] args) {
         
     }

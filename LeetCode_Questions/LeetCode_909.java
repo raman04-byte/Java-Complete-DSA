@@ -10,7 +10,7 @@ public class LeetCode_909 {
             int n=board.length;
             Map<Integer,Integer>hm=new HashMap<>();
             hm.put(1,0);
-            Queue<Integer>q=new LinkedList<>();
+            Queue<Integer>q=new LeetCode_83<>();
             q.add(1);//for starting bfs
             while(!q.isEmpty()){
                 int p=q.poll();
