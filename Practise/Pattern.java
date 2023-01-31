@@ -4,27 +4,28 @@ import java.util.Scanner;
 
 public class Pattern {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
-        double start = System.currentTimeMillis();
-        pattern1(n);
-        System.out.println();
-        pattern2(n);
-        System.out.println();
-        pattern3(n);
-        System.out.println();
-        pattern4(n);
-        System.out.println();
-        pattern5(n);
-        System.out.println();
-        pattern6(n);
-        System.out.println();
-        pattern7(n);
-        System.out.println();
-        pattern8(n);
-        double end = System.currentTimeMillis();
-        float second = (float) (end - start) / 1000F;
-        System.out.println("Time taken: " + second + " seconds");
+        try (Scanner scn = new Scanner(System.in)) {
+            int n = scn.nextInt();
+            double start = System.currentTimeMillis();
+            pattern1(n);
+            System.out.println();
+            pattern2(n);
+            System.out.println();
+            pattern3(n);
+            System.out.println();
+            pattern4(n);
+            System.out.println();
+            pattern5(n);
+            System.out.println();
+            pattern6(n);
+            System.out.println();
+            pattern7(n);
+            System.out.println();
+            pattern8(n);
+            double end = System.currentTimeMillis();
+            float second = (float) (end - start) / 1000F;
+            System.out.println("Time taken: " + second + " seconds");
+        }
     }
 
     public static void pattern1(int n) {

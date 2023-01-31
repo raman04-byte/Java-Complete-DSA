@@ -3,13 +3,14 @@ import java.util.Scanner;
 
 public class Permutation_of_String {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        long start = System.currentTimeMillis();
-        String str = scn.next();
-        printPermutation(str, "");
-        long end = System.currentTimeMillis();
-        float second = (end - start) / 1000F;
-        System.out.println(second + " Seconds");
+        try (Scanner scn = new Scanner(System.in)) {
+            long start = System.currentTimeMillis();
+            String str = scn.next();
+            printPermutation(str, "");
+            long end = System.currentTimeMillis();
+            float second = (end - start) / 1000F;
+            System.out.println(second + " Seconds");
+        }
     }
 
     public static void printPermutation(String queString, String asf) {

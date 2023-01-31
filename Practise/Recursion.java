@@ -6,13 +6,14 @@ import java.util.Scanner;
 
 class Factorial {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        int input = scn.nextInt();
-        long start = System.currentTimeMillis();
-        System.out.println(factorial(input));
-        long end = System.currentTimeMillis();
-        float second = (end - start) / 1000F;
-        System.out.println(second);
+        try (Scanner scn = new Scanner(System.in)) {
+            int input = scn.nextInt();
+            long start = System.currentTimeMillis();
+            System.out.println(factorial(input));
+            long end = System.currentTimeMillis();
+            float second = (end - start) / 1000F;
+            System.out.println(second);
+        }
 
     }
 

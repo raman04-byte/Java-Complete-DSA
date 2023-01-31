@@ -31,9 +31,10 @@ class Recursion {
     // Main method
     public static void main(String args[]) {
         String str;
-        Scanner scn = new Scanner(System.in);
+        try (Scanner scn = new Scanner(System.in)) {
+            str = scn.nextLine();
+        }
 
-        str = scn.nextLine();
         long start = System.currentTimeMillis();
         if (isPalindrome(str))
             System.out.println("The string is Palindrome");
