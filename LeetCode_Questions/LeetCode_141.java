@@ -1,5 +1,4 @@
-// LeetCode 141
-public class HasCycle {
+public class LeetCode_141 {
     public static void main(String[] args) {
 
     }
