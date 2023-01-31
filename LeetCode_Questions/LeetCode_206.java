@@ -1,5 +1,5 @@
-//  LeetCode 206 problem solution
-public class ReverseList {
+
+public class LeetCode_206 {
     public static void main(String[] args) {
 
     }
