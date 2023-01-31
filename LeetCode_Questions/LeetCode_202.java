@@ -1,5 +1,5 @@
-//  LeetCode 202
-public class IsHappy {
+
+public class LeetCode_202 {
     public static void main(String[] args) {
         
     }
