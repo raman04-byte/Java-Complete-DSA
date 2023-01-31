@@ -1,5 +1,4 @@
-// LeetCode 876
-public class MiddleNode {
+public class LeetCode_876 {
     public static void main(String[] args) {
         
     }
