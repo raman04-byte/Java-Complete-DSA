@@ -1,6 +1,5 @@
 
-// LeetCode question 268
-public class missingNumber {
+public class LeetCode_268 {
     public static void main(String[] args) {
         
     }
