@@ -2,7 +2,7 @@ public class LeetCode_953 {
     public static void main(String[] args) {
         
     }
-
+// function
         public boolean isAlienSorted(String[] words, String order) {
             int[] map = new int[26];
             for (int i = 0; i < order.length(); i++) {
