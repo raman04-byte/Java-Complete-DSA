@@ -1,5 +1,5 @@
 package GFGPOTD;
-
+// GeeksforGeeks Problem Date: Jan 22
 import java.util.ArrayList;
 
 public class Jan_22 {
