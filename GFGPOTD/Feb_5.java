@@ -1,5 +1,7 @@
 package GFGPOTD;
 
+import org.w3c.dom.Node;
+
 public class Feb_5 {
     public static void main(String[] args) {
 
