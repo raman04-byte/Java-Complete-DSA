@@ -1,3 +1,4 @@
+// LeetCode question 991
 public class LeetCode_991 {
         public int findJudge(int n, int[][] trust) {
             if (n == 1 && trust.length == 0)
