@@ -1,3 +1,4 @@
+// Binary Search Implementation 
 package DSA_Questions;
 
 public class BinarySearch {
