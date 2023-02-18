@@ -1,5 +1,5 @@
-import java.util.Arrays;
 // LeetCode question number 567
+import java.util.Arrays;
 public class LeetCode_567 {
     public static void main(String[] args) {
         
