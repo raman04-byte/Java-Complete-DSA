@@ -2,7 +2,7 @@ package Revision.Sorting;
 
 import java.util.Arrays;
 
-public class mergeSort {
+public class Merge_Sort {
     int[] mergeSS(int[] arr) {
         if (arr.length == 1) {
             return arr;

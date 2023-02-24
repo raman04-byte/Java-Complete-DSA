@@ -1,6 +1,6 @@
 package Revision.Sorting;
 
-public class insertionSort {
+public class Insertion_Sort {
 
     public void insetion(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {

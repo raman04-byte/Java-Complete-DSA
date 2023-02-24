@@ -1,6 +1,6 @@
 package Revision.Sorting;
 
-public class cyclicSort {
+public class Cyclic_Sort {
 
     public void cyclicsort(int[] arr) {
         int i = 0;

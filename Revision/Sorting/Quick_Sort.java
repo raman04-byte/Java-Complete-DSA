@@ -1,6 +1,6 @@
 package Revision.Sorting;
 
-public class quickSort {
+public class Quick_Sort {
     public void quick(int[] arr, int start, int end) {
         if(start>=end){
             return;

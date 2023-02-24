@@ -1,6 +1,6 @@
 package Revision.Sorting;
 // bubble Sort method
-class bubbleSort {
+class BubbleSort {
     public void bubble(int[] arr) {
         boolean isSwap;
         for (int i = 0; i < arr.length; i++) {

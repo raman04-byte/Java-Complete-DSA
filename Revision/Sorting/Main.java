@@ -14,7 +14,7 @@ public class Main {
         // ins.insetion(arr);
         // quickSort qs=new quickSort();
         // qs.quick(arr, 0, arr.length-1);
-        mergeSort mg=new mergeSort();
+        Merge_Sort mg=new Merge_Sort();
         arr = mg.mergeSS(arr);
         System.out.println(Arrays.toString(arr));
     }
