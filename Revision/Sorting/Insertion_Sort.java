@@ -1,5 +1,6 @@
 package Revision.Sorting;
 
+// Insertion Sort Implementation in java using function
 public class Insertion_Sort {
 
     public void insetion(int[] arr) {
@@ -13,7 +14,7 @@ public class Insertion_Sort {
             }
         }
     }
-
+// function of swapping
     public void swap(int[] arr, int first, int second) {
         int temp = arr[first];
         arr[first] = arr[second];
