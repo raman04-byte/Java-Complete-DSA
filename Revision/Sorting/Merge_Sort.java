@@ -1,7 +1,7 @@
 package Revision.Sorting;
 
 import java.util.Arrays;
-
+// Merge Sort Implementation using methods
 public class Merge_Sort {
     int[] mergeSS(int[] arr) {
         if (arr.length == 1) {
@@ -10,11 +10,9 @@ public class Merge_Sort {
         int mid = arr.length / 2;
         int[] first = mergeSS(Arrays.copyOfRange(arr, 0, mid));
         int[] second = mergeSS(Arrays.copyOfRange(arr, mid, arr.length));
-
         return merge(first, second);
-
     }
-
+    // merge sort method
     private static int[] merge(int[] first, int[] second) {
         int[] mix = new int[first.length + second.length];
         int i = 0, j = 0, k = 0;
