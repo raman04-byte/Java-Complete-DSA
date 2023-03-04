@@ -9,7 +9,7 @@ public class BubbleSort {
         bubble(arr);
         System.out.println(Arrays.toString(arr));
     }
-
+// Bubble Sort method
     public static void bubble(int[] arr) {
         boolean swap;
         for (int i = 0; i < arr.length; i++) {
