@@ -1,5 +1,5 @@
 package Revision.Sorting;
-
+// Cyclic Sort  Implementation using methods in java
 public class Cyclic_Sort {
 
     public void cyclicsort(int[] arr) {
@@ -13,7 +13,7 @@ public class Cyclic_Sort {
             }
         }
     }
-
+// Swap method
     static void swap(int arr[], int first, int second) {
         int temp = arr[first];
         arr[first] = arr[second];
