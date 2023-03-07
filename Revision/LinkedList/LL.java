@@ -1,5 +1,6 @@
 package Revision.LinkedList;
 
+// public class of LinkedList
 public class LL {
 
     private Node head;
