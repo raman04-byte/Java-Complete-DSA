@@ -21,6 +21,7 @@ public class LL {
         }
         size+=1;
     }
+    // Method of insertlast 
     public void insertLast(int val){
         if(tail==null){
             insertFirst(val);
