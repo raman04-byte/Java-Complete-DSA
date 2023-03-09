@@ -1,5 +1,5 @@
 package Practise;
-
+// This is a Method named Duplicate
 public class Duplicate {
     public static void main(String[] args) {
 
